@@ -1,3 +1,11 @@
+## NOTE
+
+This is a copy of the 21.02.3 tag. Modified:
+- target/linux/ath79/dts/ar7161_dlink_dir-825-b1.dts (to merge "unknown" partition with "firmware" partition) as per this: https://github.com/openwrt/openwrt/pull/4603
+- .config (based on https://downloads.openwrt.org/releases/21.02.3/targets/ath79/generic/config.buildinfo , ensuring kmod-owl-loader and kmod-usb2 are included in build
+
+## OpenWrt
+
 ![OpenWrt logo](include/logo.png)
 
 OpenWrt Project is a Linux operating system targeting embedded devices. Instead
